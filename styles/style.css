@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+#navbar-pinterest{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+#logo-container img{
+    font-size: 32px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    padding: 25px;
+}
+#options-container{
+    padding: 3px;
+    display: flex;
+    flex-direction:row;
+    gap: 5px; 
+}
+#options-container button{
+    
+    height: 50px;
+    width: 100px;
+    border:  1px #f4f4f8 ;
+    border-radius: 20px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+#barra-input-container{
+    width: 800px;
+    height: 55px;
+    border-radius: 80px;
+    background: #e4e4e4;
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+}
+#barra-input-container i{
+    color: #555;
+}
+#barra-input-container input{
+    width: 80%; 
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    margin: 0 10px;
+    font-size: 16px;
+}
+#notifications{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#notifications img{
+    font-size: 26px;
+    color: #333;
+    margin: 0 15px;
+    cursor: pointer;
+}
+#message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#message img{
+    font-size: 26px;
+    color: #333;
+    margin: 0 15px;
+    cursor: pointer;
+}
+#profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#profile img{
+    font-size: 26px;
+    color: #333;
+    margin: 0 15px;
+    cursor: pointer;
+}
+#flecha-abajo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#flecha-abajo img{
+    font-size: 10px;
+    color: #333;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.Elementos{
+    width:100%;
+    margin: 15px auto;
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  flex-direction: column;
+    
+}
+.card-image{
+    width: 220px;
+    padding: 20px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.card-image:hover{
+    cursor: pointer;
+    background-color: #cecece;
+    border-radius: 18px;
+}
+.card-image img{
+    width: 100%;
+    border-radius: 20px;
+    align-items: center;
+    
+}
