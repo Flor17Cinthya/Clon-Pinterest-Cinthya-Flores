@@ -100,30 +100,40 @@ body {
     margin: 0 15px;
     cursor: pointer;
 }
-.Elementos{
-    width:100%;
-    margin: 15px auto;
-    display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 20px;
-  flex-direction: column;
-    
+
+#elementos{
+  display: flex;
+  flex-direction: row;
+  gap: 15px ;
+  padding: 15px;
+  justify-content:center;
 }
-.card-image{
-    width: 220px;
-    padding: 20px;
-    float: left;
-    margin-right: 15px;
-    margin-bottom: 15px;
-}
-.card-image:hover{
+section img {
+    width: 250px;
+    height: 350px;
+    border-radius: 25px;
+    object-fit: cover;
+  }
+  section img:hover{
+    visibility: visible;
+    filter: grayscale(1);
+    transition: all 0.6s ease;
+  }
+.image-container {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     cursor: pointer;
-    background-color: #cecece;
-    border-radius: 18px;
+  }
+  
+.image-converter{
+    width: 250px;
+    height: 500px;
+
 }
-.card-image img{
-    width: 100%;
-    border-radius: 20px;
-    align-items: center;
-    
+.image-converter-a{
+    width: 250px;
+    height: 450px;
+
 }
